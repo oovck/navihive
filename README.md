@@ -78,7 +78,7 @@
 **三步部署，立即使用：**
 
 1. **Fork 项目** → 点击右上角 Fork 按钮
-2. **一键部署** → [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/你的用户名/Cloudflare-Navihive)
+2. **一键部署** → [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/oovck/Cloudflare-Navihive)
 3. **配置数据库** → 在 Cloudflare 控制台创建 D1 数据库并初始化
 
 > 详细步骤见下方[部署指南](#-部署指南)
@@ -1158,43 +1158,5 @@ pnpm format
 ### 💝 给项目点赞
 - 点击右上角的 ⭐ **Star** 按钮，这是对开发者最大的鼓励
 - **Fork** 项目，参与改进和定制
-- 分享给你的朋友和同事
-
-### 💰 赞赏支持
-你的赞赏将用于项目的持续开发和维护：
-
-<div align="center">
-  <img src="https://img.zhengmi.org/file/1743956440128_4b965550184c06d8164f8077fa42b5d.jpg" alt="微信赞赏码" width="300">
-  <p><em>微信扫码赞赏</em></p>
-</div>
-
-### 🤝 其他支持方式
-- 💬 提交有价值的 Issue 和 Feature Request
-- 📝 改进文档和教程
-- 🐛 报告 Bug 并提供复现步骤
-- 💻 贡献代码（欢迎提交 PR）
-
----
-## 📈 Star History
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=zqq-nuli/Cloudflare-Navihive&type=Date&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=zqq-nuli/Cloudflare-Navihive&type=Date" />
-  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=zqq-nuli/Cloudflare-Navihive&type=Date" />
-</picture>
-
----
-
-<div align="center">
-
-## 🎉 让导航管理更简单
-
-**NaviHive** - 你的专属网络导航中心
-
-[立即部署](https://deploy.workers.cloudflare.com/?url=https://github.com/zqq-nuli/Cloudflare-Navihive) · [在线演示](https://navihive.chatbot.cab/) · [提交问题](https://github.com/zqq-nuli/Cloudflare-Navihive/issues) · [参与贡献](https://github.com/zqq-nuli/Cloudflare-Navihive/pulls)
-
-Made with ❤️ by [zqq-nuli](https://github.com/zqq-nuli)
-
-⭐ 如果觉得有用，别忘了点个 Star 哦 ⭐
 
 </div>
