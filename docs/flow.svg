@@ -1,0 +1,13 @@
+<svg width="760" height="64" viewBox="0 0 760 64" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="14">
+<rect x="2" y="10" width="169" height="34" rx="7" fill="#ddf4ff" stroke="#2d6cdf"/>
+<text x="86" y="32" text-anchor="middle">生成两个值</text>
+<text x="176" y="33" font-size="16">→</text>
+<rect x="197" y="10" width="169" height="34" rx="7" fill="#ddf4ff" stroke="#2d6cdf"/>
+<text x="281" y="32" text-anchor="middle">点按钮部署</text>
+<text x="371" y="33" font-size="16">→</text>
+<rect x="392" y="10" width="169" height="34" rx="7" fill="#ddf4ff" stroke="#2d6cdf"/>
+<text x="476" y="32" text-anchor="middle">打开站点登录</text>
+<text x="566" y="33" font-size="16">→</text>
+<rect x="587" y="10" width="169" height="34" rx="7" fill="#dafbe1" stroke="#1a7f37"/>
+<text x="671" y="32" text-anchor="middle">加你的网址</text>
+</svg>

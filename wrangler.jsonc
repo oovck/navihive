@@ -1,0 +1,26 @@
+{
+  // 部署前要改的只有 vars 里的 AUTH_PASSWORD 和 AUTH_SECRET 两处，见部署手册
+  "name": "navihive",
+  "main": "worker/index.ts",
+  "compatibility_date": "2025-04-05",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "not_found_handling": "single-page-application"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "navigation-db"
+      // 命令行部署时，把 wrangler d1 create 返回的 database_id 填到这里
+    }
+  ],
+  "vars": {
+    "AUTH_ENABLED": "true",
+    "AUTH_REQUIRED_FOR_READ": "false",
+    "AUTH_USERNAME": "admin",
+    // 管理员密码的哈希，不是明文：用 pnpm hash-password 你的密码 生成
+    "AUTH_PASSWORD": "CHANGE_ME",
+    // 32 位以上随机字符串，例如 openssl rand -hex 32 的输出；保持 CHANGE_ME 不改将无法登录
+    "AUTH_SECRET": "CHANGE_ME"
+  }
+}
